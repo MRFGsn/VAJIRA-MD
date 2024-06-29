@@ -16,7 +16,7 @@ SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=DUNWEDLQ#REnzG70LZN_-ZAnrzFWURo
 travaSend: process.env.TRAVA_SEND || '25' ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '2048': process.env.MAX_SIZE,/*add this in megabytes*/    
 OWNER_NAME: process.env.OWNER_NAME || 'Snyder' ,
-COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
+COMMAND_TYPE: process.env.COMMAND_TYPE || 'text' ,
 LOGO: process.env.LOGO || `https://telegra.ph/file/ab0ea6ad90e2eb98090d9.jpg` ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL || 'postgresql://mrfg_database_user:MYoTnmpsoDcxBIX0U8V1IJ6yXRzEEnh7@dpg-comundgcmk4c739roc3g-a.singapore-postgres.render.com/mrfg_database',
 MONGODB_URI :process.env.MONGODB_URI === undefined ? 'mongodb+srv://Snyder:Snyder@cluster0.vqyuk9h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0' : process.env.MONGODB_URI,  
